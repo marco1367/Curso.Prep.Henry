@@ -1,0 +1,59 @@
+1)
+
+-Variables:
+	Una variable es algo que creamos para guardar cosas (valores). estos valores,
+	pueden ser de diferente tipo, los principales son strings, number o booleans.
+	Es JS, las variables no es necesario que sean declaradas con aterioridad, es un lenguaje de
+	tipado dinámico.
+	Las variables se declaran con la palabra clave "var", "let" o "const", seguido de un espacio y el nombre de 
+	la variable, con ese nombre podemos invocarla cunado la nesecitemos.
+	Tambien podemos asignarle un valor con el signo "="
+	ej: "var edad=24"
+	esta es una variable ripo number.
+
+-Strings:
+	Son un tipo de datos, que reprecenta texto.
+	Con mas detalle, las strings son bloques de texto (cadenas de carácteres)
+	que siempre se deben escribir entre comillas '',es decir, cualquier
+	texto entre comillas en JS es una cadena de caracteres o string.
+
+-Funciones (argumentos, return):
+	funcion:
+		Són tipos particulares de Objetos, llamados callable objects u objetos invocables, por lo que tienen las mismas propiedades que cualquier objeto.
+		Las funciones lo que hacen en ejecutar cierto código escrito por nosotres cunado las imvocamos. en ellas generalmente usamos las variables
+		que definimos con anterioridad u otras propias e internas a la funcion, para devolver un valor o mas de un valor para ser interpretados.
+		estructura de una funcion:
+			function nombre(argumentos){
+				//código
+			}
+
+	argumentos:
+		Los argumosntos son los valores que le pasamos a la funcion, son los que están dentro del parentecis.
+		Podemos pasar más de un argumento, para esto devemos separarlos con una coma en la estructura de la funcion
+		y de igual forma cunado la invocamos.
+		Los argumentos pueden ser valores q va usar la funcion como sus propias variables o peuden ser ya variables
+		declaradas con aterioridad, fuera de la funcion invocada.
+
+	return:
+		Es una palabra calve o "Declaración" que se usa en las funciones para que devuelva lo que queremos utilizar. Esta,
+		es la unica forma de sacar cosas fuera de una función luego de ser ejecutada.
+		Tambien hay que tener en cuenta, que una funcion termina cuando se ejecuta la linea que contiene el return,
+		es decir, finaliza la fincion, todo lo que pongamos luego de esa linea no se ejecuta.
+
+-Declaraciones IF:
+	Es un control de flujo, lo que hace es evaluar (o comparar) valores mediante operadores lógicos, obteniendo un resultado. Si el resultado es "true" 
+	se ejecuta lo que programemos, si no lo es, es decir, el resultado es "false", se ejecuta otra cosa.
+	estructura:
+		if(operacion logica){
+			//código;
+		}else{
+		   //codigo;	
+		 }	
+
+-Valores booleanos:
+	Son valores binarios que se obtienen como resultado de comparaciones logicas, estos pueden ser "true" o "false".
+	Estos valores, son los que utiliza por ejemplo, la funcion IF para ejecutar los cógidos y darnos un resultado, deacuerdo 
+	a una determinada comparación.
+
+						
+	
