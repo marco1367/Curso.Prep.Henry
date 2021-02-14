@@ -1,0 +1,34 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#encabezado{
+    background-color: #ede61e;
+    padding: 20px;
+    margin: 0px;
+}
+
+.display_inline{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+#contacto{
+    
+}
+
+#contenedor_principal{
+    margin: 10px;
+    width: 90%;
+}
+
+.linea{
+    height: 3px;
+    background-color: grey;
+}
+
+h3{
+    margin-bottom: 0px;
+}
