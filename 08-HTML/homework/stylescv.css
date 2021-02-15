@@ -7,13 +7,16 @@ body{
     background-color: #ede61e;
     padding: 20px;
     margin: 0px;
+    display: flex;
+    align-items: center;
+    
 }
 
-.display_inline{
+/*.display_inline{
     display: inline-block;
     vertical-align: middle;
 
-}
+}*/
 
 #contacto{
     
